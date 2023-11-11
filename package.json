@@ -1,0 +1,12 @@
+{
+  "name": "my-backend-app",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js", 
+    "build": "your-build-command" 
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,12 +1,18 @@
 {
-  "name": "my-backend-app",
+  "name": "frontend",
   "version": "1.0.0",
-  "main": "dist/main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node dist/main.js", 
-    "build": "your-build-command" 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "docker-build": "docker build -t dockertest:1.0 .",
+    "docker-run": "docker run -p 5000:8080 b916fafc16b6fef89cf00f5d3918b32e17c2e5bdcd89e285409b346284ad05cc"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
